@@ -1,0 +1,35 @@
+5.9262 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [2880, 1800]. Using actual size
+6.8584 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024B356BBEB8>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000024B4296C2B0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.8585 	EXP 	window1: recordFrameIntervals = False
+7.0245 	EXP 	window1: recordFrameIntervals = True
+7.2080 	EXP 	window1: recordFrameIntervals = False
+7.4871 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.5001 	EXP 	Created cont_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='cont_text', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press SPACE to begin.', units='height', win=Window(...), wrapWidth=1)
+7.5021 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='height', win=Window(...))
+7.5203 	EXP 	Created thx_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thx_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Good work!\n\nYou have completed this task.', units='height', win=Window(...), wrapWidth=1)
+7.5288 	EXP 	Created thx_cont = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thx_cont', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([255., 255., 255.]), text='Press SPACE to continue.', units='height', win=Window(...), wrapWidth=1)
+7.6080 	EXP 	text: autoDraw = True
+7.6080 	EXP 	cont_text: autoDraw = True
+8.5988 	EXP 	Imported RPM_items.xlsx as conditions, 60 conditions, 3 params
+8.5991 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+8.5993 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\1.jpg'), ('correct', 4)])
+8.6200 	DATA 	Keypress: space
+8.6412 	EXP 	text: autoDraw = False
+8.6412 	EXP 	cont_text: autoDraw = False
+8.6412 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\1.jpg'
+8.6412 	EXP 	image: autoDraw = True
+9.3450 	DATA 	Keypress: space
+11.0121 	DATA 	Keypress: 4
+11.0287 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 1), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\2.jpg'), ('correct', 5)])
+11.0745 	EXP 	image: autoDraw = False
+11.0745 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\2.jpg'
+11.0745 	EXP 	image: autoDraw = True
+12.4781 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 2), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\3.jpg'), ('correct', 1)])
+12.4830 	DATA 	Keypress: 3
+12.4908 	EXP 	image: autoDraw = False
+12.4908 	EXP 	thx_text: autoDraw = True
+12.4908 	EXP 	thx_cont: autoDraw = True
+15.2125 	DATA 	Keypress: space
+15.2248 	EXP 	thx_text: autoDraw = False
+15.2248 	EXP 	thx_cont: autoDraw = False
+15.3142 	EXP 	window1: mouseVisible = True

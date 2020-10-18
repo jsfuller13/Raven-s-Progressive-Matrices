@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="3.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Monitor" updates="None" val="Built_In_Display" valType="str"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1440, 900]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="hsv" valType="str"/>
+    <Param name="expName" updates="None" val="Raven's progressive matrices" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <ImageComponent name="RPM_image">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image_file" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="RPM_image" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="size" updates="constant" val="(1,1)" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <KeyboardComponent name="RPM_key_resp">
+        <Param name="allowedKeys" updates="constant" val="'1','2','3','4','5','6','7','8'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="$correct" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="RPM_key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="score = 0&amp;#10;wrongAnswer = 0" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if RPM_key_resp.corr == 1:&amp;#10;    thisExp.addData('score', 1)&amp;#10;    score = score + 1&amp;#10;    wrongAnswer = 0&amp;#10;    &amp;#10;else:&amp;#10;    thisExp.addData('score', 0)&amp;#10;    wrongAnswer +=1&amp;#10;    if wrongAnswer == 3:&amp;#10;        trials.finished = True" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="instr">
+      <TextComponent name="instr_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="instr_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="During this task, you will see designs with a part left out.&amp;#10;&amp;#10;Decide which of the pieces below will complete the design.&amp;#10;&amp;#10;Press the number key for your choice." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="cont_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="cont_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press SPACE to begin." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="instr_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="instr_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="thanks">
+      <TextComponent name="thx_text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="thx_text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Good work!&amp;#10;&amp;#10;You have completed this task." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <TextComponent name="thx_cont">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="code"/>
+        <Param name="name" updates="None" val="thx_cont" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, -0.4)" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press SPACE to continue." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="thx_key">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="thx_key" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="False" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('index', 0), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\1.jpg'), ('correct', 4)]), OrderedDict([('index', 1), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\2.jpg'), ('correct', 5)]), OrderedDict([('index', 2), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\3.jpg'), ('correct', 1)]), OrderedDict([('index', 3), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\4.jpg'), ('correct', 2)]), OrderedDict([('index', 4), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\5.jpg'), ('correct', 6)]), OrderedDict([('index', 5), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\6.jpg'), ('correct', 3)]), OrderedDict([('index', 6), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\7.jpg'), ('correct', 6)]), OrderedDict([('index', 7), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\8.jpg'), ('correct', 2)]), OrderedDict([('index', 8), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\9.jpg'), ('correct', 1)]), OrderedDict([('index', 9), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\10.jpg'), ('correct', 3)]), OrderedDict([('index', 10), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\11.jpg'), ('correct', 5)]), OrderedDict([('index', 11), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\12.jpg'), ('correct', 4)]), OrderedDict([('index', 12), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\13.jpg'), ('correct', 2)]), OrderedDict([('index', 13), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\14.jpg'), ('correct', 6)]), OrderedDict([('index', 14), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\15.jpg'), ('correct', 1)]), OrderedDict([('index', 15), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\16.jpg'), ('correct', 2)]), OrderedDict([('index', 16), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\17.jpg'), ('correct', 1)]), OrderedDict([('index', 17), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\18.jpg'), ('correct', 3)]), OrderedDict([('index', 18), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\19.jpg'), ('correct', 5)]), OrderedDict([('index', 19), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\20.jpg'), ('correct', 6)]), OrderedDict([('index', 20), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\21.jpg'), ('correct', 4)]), OrderedDict([('index', 21), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\22.jpg'), ('correct', 3)]), OrderedDict([('index', 22), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\23.jpg'), ('correct', 4)]), OrderedDict([('index', 23), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\24.jpg'), ('correct', 5)]), OrderedDict([('index', 24), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\25.jpg'), ('correct', 8)]), OrderedDict([('index', 25), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\26.jpg'), ('correct', 2)]), OrderedDict([('index', 26), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\27.jpg'), ('correct', 3)]), OrderedDict([('index', 27), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\28.jpg'), ('correct', 8)]), OrderedDict([('index', 28), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\29.jpg'), ('correct', 7)]), OrderedDict([('index', 29), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\30.jpg'), ('correct', 4)]), OrderedDict([('index', 30), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\31.jpg'), ('correct', 5)]), OrderedDict([('index', 31), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\32.jpg'), ('correct', 1)]), OrderedDict([('index', 32), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\33.jpg'), ('correct', 7)]), OrderedDict([('index', 33), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\34.jpg'), ('correct', 6)]), OrderedDict([('index', 34), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\35.jpg'), ('correct', 1)]), OrderedDict([('index', 35), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\36.jpg'), ('correct', 2)]), OrderedDict([('index', 36), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\37.jpg'), ('correct', 3)]), OrderedDict([('index', 37), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\38.jpg'), ('correct', 4)]), OrderedDict([('index', 38), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\39.jpg'), ('correct', 3)]), OrderedDict([('index', 39), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\40.jpg'), ('correct', 7)]), OrderedDict([('index', 40), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\41.jpg'), ('correct', 8)]), OrderedDict([('index', 41), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\42.jpg'), ('correct', 6)]), OrderedDict([('index', 42), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\43.jpg'), ('correct', 5)]), OrderedDict([('index', 43), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\44.jpg'), ('correct', 4)]), OrderedDict([('index', 44), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\45.jpg'), ('correct', 1)]), OrderedDict([('index', 45), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\46.jpg'), ('correct', 2)]), OrderedDict([('index', 46), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\47.jpg'), ('correct', 5)]), OrderedDict([('index', 47), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\48.jpg'), ('correct', 7)]), OrderedDict([('index', 48), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\49.jpg'), ('correct', 7)]), OrderedDict([('index', 49), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\50.jpg'), ('correct', 6)]), OrderedDict([('index', 50), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\51.jpg'), ('correct', 8)]), OrderedDict([('index', 51), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\52.jpg'), ('correct', 2)]), OrderedDict([('index', 52), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\53.jpg'), ('correct', 1)]), OrderedDict([('index', 53), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\54.jpg'), ('correct', 5)]), OrderedDict([('index', 54), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\55.jpg'), ('correct', 6)]), OrderedDict([('index', 55), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\56.jpg'), ('correct', 4)]), OrderedDict([('index', 56), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\57.jpg'), ('correct', 1)]), OrderedDict([('index', 57), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\58.jpg'), ('correct', 6)]), OrderedDict([('index', 58), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\59.jpg'), ('correct', 3)]), OrderedDict([('index', 59), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\60.jpg'), ('correct', 5)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="RPM_items.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>

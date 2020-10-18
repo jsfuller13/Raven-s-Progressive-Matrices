@@ -1,0 +1,98 @@
+7.3932 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [2880, 1800]. Using actual size
+8.3710 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000015884975A20>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000158849F8BA8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2880, 1800]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.3711 	EXP 	window1: recordFrameIntervals = False
+8.5366 	EXP 	window1: recordFrameIntervals = True
+8.7200 	EXP 	window1: recordFrameIntervals = False
+8.9219 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+8.9517 	EXP 	Imported RPM_items.xlsx as conditions, 60 conditions, 3 params
+8.9520 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+8.9523 	EXP 	New trial (rep=0, index=0): OrderedDict([('index', 0), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\1.jpg'), ('correct', 1)])
+9.0704 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\1.jpg'
+9.0704 	EXP 	image: autoDraw = True
+12.4253 	EXP 	New trial (rep=0, index=1): OrderedDict([('index', 1), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\2.jpg'), ('correct', 1)])
+12.4986 	DATA 	Keypress: 2
+12.5200 	EXP 	image: autoDraw = False
+12.5200 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\2.jpg'
+12.5200 	EXP 	image: autoDraw = True
+13.3584 	EXP 	New trial (rep=0, index=2): OrderedDict([('index', 2), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\3.jpg'), ('correct', 1)])
+13.4312 	DATA 	Keypress: 1
+13.4535 	EXP 	image: autoDraw = False
+13.4535 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\3.jpg'
+13.4535 	EXP 	image: autoDraw = True
+14.4077 	EXP 	New trial (rep=0, index=3): OrderedDict([('index', 3), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\4.jpg'), ('correct', 1)])
+14.4927 	DATA 	Keypress: 3
+14.5033 	EXP 	image: autoDraw = False
+14.5033 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\4.jpg'
+14.5033 	EXP 	image: autoDraw = True
+14.8911 	EXP 	New trial (rep=0, index=4): OrderedDict([('index', 4), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\5.jpg'), ('correct', 1)])
+14.9820 	DATA 	Keypress: 1
+15.0035 	EXP 	image: autoDraw = False
+15.0035 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\5.jpg'
+15.0035 	EXP 	image: autoDraw = True
+15.2917 	EXP 	New trial (rep=0, index=5): OrderedDict([('index', 5), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\6.jpg'), ('correct', 1)])
+15.3720 	DATA 	Keypress: 1
+15.3868 	EXP 	image: autoDraw = False
+15.3868 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\6.jpg'
+15.3868 	EXP 	image: autoDraw = True
+15.5413 	EXP 	New trial (rep=0, index=6): OrderedDict([('index', 6), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\7.jpg'), ('correct', 1)])
+15.6253 	DATA 	Keypress: 1
+15.6367 	EXP 	image: autoDraw = False
+15.6367 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\7.jpg'
+15.6367 	EXP 	image: autoDraw = True
+15.7413 	DATA 	Keypress: 1
+15.7584 	EXP 	New trial (rep=0, index=7): OrderedDict([('index', 7), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\8.jpg'), ('correct', 1)])
+15.8532 	EXP 	image: autoDraw = False
+15.8532 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\8.jpg'
+15.8532 	EXP 	image: autoDraw = True
+15.9242 	EXP 	New trial (rep=0, index=8): OrderedDict([('index', 8), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\9.jpg'), ('correct', 1)])
+15.9837 	DATA 	Keypress: 1
+16.0034 	EXP 	image: autoDraw = False
+16.0034 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\9.jpg'
+16.0034 	EXP 	image: autoDraw = True
+16.1081 	EXP 	New trial (rep=0, index=9): OrderedDict([('index', 9), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\10.jpg'), ('correct', 1)])
+16.1823 	DATA 	Keypress: 1
+16.2034 	EXP 	image: autoDraw = False
+16.2034 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\10.jpg'
+16.2034 	EXP 	image: autoDraw = True
+16.2751 	EXP 	New trial (rep=0, index=10): OrderedDict([('index', 10), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\11.jpg'), ('correct', 1)])
+16.3545 	DATA 	Keypress: 1
+16.3701 	EXP 	image: autoDraw = False
+16.3701 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\11.jpg'
+16.3701 	EXP 	image: autoDraw = True
+16.4081 	DATA 	Keypress: 1
+16.4249 	EXP 	New trial (rep=0, index=11): OrderedDict([('index', 11), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\12.jpg'), ('correct', 1)])
+16.5368 	EXP 	image: autoDraw = False
+16.5368 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\12.jpg'
+16.5368 	EXP 	image: autoDraw = True
+16.5912 	EXP 	New trial (rep=0, index=12): OrderedDict([('index', 12), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\13.jpg'), ('correct', 1)])
+16.6631 	DATA 	Keypress: 1
+16.6868 	EXP 	image: autoDraw = False
+16.6868 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\13.jpg'
+16.6868 	EXP 	image: autoDraw = True
+16.7409 	DATA 	Keypress: 1
+16.7579 	EXP 	New trial (rep=0, index=13): OrderedDict([('index', 13), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\14.jpg'), ('correct', 1)])
+16.8535 	EXP 	image: autoDraw = False
+16.8535 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\14.jpg'
+16.8535 	EXP 	image: autoDraw = True
+16.9084 	EXP 	New trial (rep=0, index=14): OrderedDict([('index', 14), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\15.jpg'), ('correct', 1)])
+16.9859 	DATA 	Keypress: 1
+17.0033 	EXP 	image: autoDraw = False
+17.0033 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\15.jpg'
+17.0033 	EXP 	image: autoDraw = True
+17.1242 	EXP 	New trial (rep=0, index=15): OrderedDict([('index', 15), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\16.jpg'), ('correct', 1)])
+17.1953 	DATA 	Keypress: 1
+17.2198 	EXP 	image: autoDraw = False
+17.2198 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\16.jpg'
+17.2198 	EXP 	image: autoDraw = True
+17.2579 	DATA 	Keypress: 1
+17.2750 	EXP 	New trial (rep=0, index=16): OrderedDict([('index', 16), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\17.jpg'), ('correct', 1)])
+17.3866 	EXP 	image: autoDraw = False
+17.3866 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\17.jpg'
+17.3866 	EXP 	image: autoDraw = True
+17.4248 	EXP 	New trial (rep=0, index=17): OrderedDict([('index', 17), ('image_file', 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\18.jpg'), ('correct', 1)])
+17.5155 	DATA 	Keypress: 1
+17.5369 	EXP 	image: autoDraw = False
+17.5369 	EXP 	image: image = 'C:\\Users\\Jordan\\Documents\\Experiment Building\\7. Raven_s Progressive Matrices\\JPG Images\\18.jpg'
+17.5369 	EXP 	image: autoDraw = True
+18.1407 	DATA 	Keypress: escape
+18.3811 	EXP 	window1: mouseVisible = True

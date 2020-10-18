@@ -1,0 +1,4 @@
+﻿index,image_file,correct,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp.keys,key_resp.corr,key_resp.rt,participant,session,date,expName,psychopyVersion,frameRate,
+0,C:\Users\Jordan\Documents\Experiment Building\7. Raven_s Progressive Matrices\JPG Images\1.jpg,4,0,0,0,0,4,1,1.8570290000000114,,001,2019_Sep_19_1355,Raven's progressive matrices,3.2.3,60.03737927236483,
+1,C:\Users\Jordan\Documents\Experiment Building\7. Raven_s Progressive Matrices\JPG Images\2.jpg,5,0,1,1,1,5,1,1.707011599999987,,001,2019_Sep_19_1355,Raven's progressive matrices,3.2.3,60.03737927236483,
+2,C:\Users\Jordan\Documents\Experiment Building\7. Raven_s Progressive Matrices\JPG Images\3.jpg,1,0,2,2,2,2,0,1.9365247999999156,,001,2019_Sep_19_1355,Raven's progressive matrices,3.2.3,60.03737927236483,
